@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<head>
+    <title>
+        REPORT FORM
+    </title>
+    <link rel="shortcut icon" href="./images/fav.jpeg" type="image/x-icon">
+    <style>
+        p {
+            text-align: center;
+            color: blue;
+        }
+        h1 {
+            border: 2px solid;
+            border-radius: 13px;
+            color: white;
+            background-color:black;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 29px 28px;
+
+        }
+        h2{
+            text-align: center;
+        }
+
+        .navbar {
+
+            font-weight: bold;
+        }
+
+        .navbar li {
+            font-size: x-large;
+            list-style: none;
+            float: right;
+            padding: 40px 8px;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        .navbar ol {
+            margin: -55px auto;
+            overflow: auto;
+            position: relative;
+            bottom: 30px;
+        }
+
+
+        a:hover {
+            cursor: pointer;
+            border: 1px solid black;
+        }
+
+        b {
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <img src="./images/lg2.jpeg"no" height="70" width="200">
+    <nav class="navbar">
+        <ol>
+            <li> <a href="./services.html" alt="">SERVICES</a></li>
+            <li> <a href="./index.html" alt="">HOME</a></li>
+        </ol>
+    </nav>
+</header>
+<hr>
+
+    <h1 style="text-align: center;">FOR ENQUIRY PLEASE FILL THE FOLLOWING FORM </h1>
+    <fieldset>
+    <form action="stm.docx" style="text-align: center;">
+        <label for="name"><b>NAME:</b></label><input type="text" name="myname" width="9" id="name" placeholder="enter your name"><br><br>
+        <label for="ph.no"><b>PHONE.NO:</b></label><input type="number" name="myphno" id="ph.no" size="20"
+        placeholder="enter your number"    width="9"><br><br>
+        <label for="ord.no"><b>ORDER NO:</b></label><input type="text" name="ordphno" id="ord.no" size="20"
+        placeholder="ex:hyr5652AB2345"    width="9"><br><br>
+        <div>
+            <label for="id"><b>EMAIL_id:</b></label><input type="email" id="id" placeholder="enter your mail_id"
+            width="3">
+        </div>
+        <br>
+        
+        <label for="dob"><b>RECENT PLACED ORDER ON :</b></label><input type="date" id="dob" name="mydob" size="500"
+            width="9"><br><br>
+        <div>
+            <div>
+                <label for="mod" size="150" width="3"><b>MODE OF PAYMENT SELECTED:</b></label>
+                <select name="my course" id="mod" aria-placeholder="select">
+                    <option value="Py" size="150" width="3">CASH ON DELIVERY</option>
+                    <option value="jl" size="150" width="3">INERNET BANKING</option>
+                    <option value="sl" size="150" width="3">CREDIT/DEBIT CARDS</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="orderst" size="150" width="3"><b>REASON FOR ENQUIRY:</b></label>
+                <select name="my status" id="orderst" aria-placeholder="select">
+                    <option value="y" size="150" width="3" id="um" selected>DELAYED DELIVERY</option>
+                    <option value="e" size="150" width="3" id="um">DISPLACED DELIVERY</option>
+                    <option value="l" size="150" width="3" selected>DAMAGED DELIVERY</option>
+                </select>
+            </div>
+            <br>
+            <optgroup id="oop">
+            <div>
+            <b>DELIVERED ON TIME:</b><input type="radio" id="engg" name="engg">
+            <label for="engg"><b> YES</b></label>
+              <input type="radio" name="engg" id="deg">
+              <label for="deg"><b> NO </b></label>
+            </div>
+            <br>
+            <div><label for="intr"><b> ARE YOU INTRESTED TO ORDER AGAIN? </b> </label>
+
+                <input id="intr" 
+                type="checkbox" name="eligible">
+            </div>
+            <br>
+        </optgroup>
+            <div>
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+            </div>
+            <br>
+    </form>
+    </fieldset>
+    <h2>WE WILL CONTACT YOU</h2>
+    <h2> THANK YOU!!</h2>
+</body>
+
+</html>

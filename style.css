@@ -1,0 +1,216 @@
+.navbar li{ 
+    font-size:x-large;
+        list-style: none;
+        float: right;
+        padding: 90px 24px;
+       display: flex; 
+        font-family:'Times New Roman', Times, serif;
+        margin: -100px auto;
+    }
+.navbar ul{display: flex;
+        position: absolute;
+        top: 40px;
+        right: 60px;
+        }
+.navbar a:hover{ 
+
+    cursor: pointer;
+    color: grey;
+    text-decoration: underline;
+}
+.navbar #zmm:hover{
+    cursor: pointer;
+    color: grey;
+    text-decoration: underline;
+}
+.navbar li a.active{
+    color: grey;
+    text-decoration: underline;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+img{
+    display: flex;
+}
+section ul {  
+    font-weight: bold;
+    list-style: none;
+    font-size:larger;
+    display: flex;
+
+}
+section ul li{border-radius: 5px;
+    border: 2px solid black;
+    margin: 5px;
+    display: flex;
+   
+    padding: 32px 90px;
+}
+section ul a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: gray;
+}
+footer{ width: auto;
+    height: 190px;
+    background-color:hsl(245, 89%, 17%);
+}
+footer p{ color: white;
+    font-size: large;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+}
+#hmm{ font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: large;
+    justify-content: space-around;
+}
+#okk{width: auto;
+    height: 130px;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+span{ 
+    padding:2px 186px; }
+    .box{ margin: 20px ;
+        display: flex;
+    }
+.container{ background-color: rgb(243, 168, 140);
+  width: auto;
+  height: 540px;
+    display: flex;
+   align-items: center;
+     text-align: center;
+}
+.box:hover{
+    transform:scaleY(1.1);
+}
+.container p a{ border-radius: 25px;
+    display:block;
+    position: absolute;
+    bottom: 1px;
+    right: 46%;
+    margin: -37px;
+    margin-top: 90px;
+    width: auto;
+    text-align: center;
+    align-items: center;
+    font-size:x-large;
+    padding: 5px 7px;
+   font-weight: bolder;
+   color: white;
+   background-color:black;
+}
+span:hover{
+cursor: pointer;
+text-decoration:underline;
+color: grey;
+} 
+.container a:hover{cursor: pointer; 
+background-color: white;
+color: grey;
+}
+fieldset{
+background-color: rgb(227, 223, 158);
+display: inline-flex;
+width: 315px;
+height: 280px;
+align-items: center;
+justify-content: center;
+justify-items: center;
+margin: 40px;
+margin-left: 40%;
+}
+fieldset p{ font-weight: bold;
+padding: 5px 6px;
+border-radius: 20px;
+border: 1px solid black;
+}
+
+fieldset p a:hover{
+font-weight: bolder;
+color:white;
+background-color: black;
+}
+@media(max-width:800px){ 
+      .navbar{
+        display: none;
+      }
+     section ul li{
+        font-size:medium;
+        border-radius: 2px;
+        border: 1px solid black;           
+        padding: 10% 9%;
+        width:fit-content;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: 50px 50px;
+        padding-left: 25%;
+        padding-right: auto;
+        margin-left: -4px;
+        margin-right: auto;
+      }
+      section ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-left: 10px;
+        padding-right: auto;
+        }
+    .container{
+         background-color: rgb(243, 168, 140);
+         height: 100%;                
+         display: grid;
+         grid-template-columns: repeat(1,2fr);
+         gap: 5px;
+         margin-left:-10px;
+         margin-right: auto;
+         
+    }
+    .container p{
+        display: none;
+    }             
+    .container img{ 
+        height: 350px;
+        width: 300px;
+        display: flex;
+        margin-left: 5px;
+        margin-right: auto ;
+        
+    }
+    footer{
+        margin-left: auto;
+        margin-right: auto;
+        height: 100%;
+        width: 97vw;
+    }
+    #okk span{
+        display: block;
+        height: 100%;
+        text-align: center;
+    }
+    #okk{
+        display: none;
+    }
+    #rr{
+        display: block;
+        margin-left: 10px;
+        margin-right: auto ;
+        padding-bottom: 45px;
+        padding-left: 2px;
+        padding-right: auto;
+    }
+    header>img{
+        height: 70px;
+        width:200px;
+    }
+}
+@media(max-width:375px) {
+    #okk{
+        display: none;
+    }
+}

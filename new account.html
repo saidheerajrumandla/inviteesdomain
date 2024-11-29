@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACCOUNT</title>
+    <link rel="shortcut icon" href="./images/fav.jpeg" type="image/x-icon">
+    <style>
+       fieldset{
+        background-color: lightblue;
+        display: inline-flex;
+        width: 315px;
+        height: 280px;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        margin: 40px;
+        margin-left: 40%;
+       }
+       fieldset p{ font-weight: bold;
+        padding: 5px 6px;
+        border-radius: 20px;
+        border: 1px solid black;
+       }
+       fieldset p a{
+        text-decoration:none;
+       }
+       
+       fieldset p a:hover{
+       font-weight: bolder;
+       color:white;
+       background-color: black;
+       }
+       footer{ width: auto;
+            height: 190px;
+            background-color:hsl(245, 89%, 17%);
+        }
+        footer p{ color: white;
+            font-size: large;
+            font-family:Arial, Helvetica, sans-serif;
+            text-align:center;
+        }
+       @media(max-width:800px){
+        #rr{ display: block;
+            margin-left: auto;
+            margin-right: auto ;
+            padding-left: 2px;
+            padding-bottom: 30px;
+        }       
+        footer{
+                height: 100%;
+                width: 98vw;
+            }
+       }
+      </style>
+</head>
+<body>
+    <header>
+        <img src="./images/lg2.jpeg" alt="no" height="70" width="200">
+    </header>
+    <hr>
+    <fieldset style="text-align: center;" id="rr">
+        <form action="" style="text-align: center;" aria-required="true" aria-checked="true">
+            <br><br>
+            <div>
+        <label for="log"><b class="bld" >Email-id:</b></label>
+        <input type="email" name="log" placeholder="enter email address" class="bd" id="log" required aria-checked="true">
+        </div>
+        <br><br>
+        <div>
+        <label for="pwd"> <b class="bld" required >PASSWORD:</b> </label>
+           <input type="password" id="pwd"placeholder="enter password" class="bd" maxlength="8" minlength="8" required>
+        </div>
+        <br>
+        <div>
+            <label for="sign">
+                <button btn="sign" aria-checked="true"><a href="./services.html" class="bld" >sign-in</a></button>
+            </label>
+        </div>
+        <br>
+        <hr>
+        <p><a href="./services.html" class="bld">LOGIN WITH GOOGLE</a></p>
+        <p><a href="./services.html" class="bld">LOGIN WITH FACEBOOK</a></p>
+    </fieldset>
+    <footer>
+            <br>
+            <p id="hmm">ABOUT US:</p>
+            <p> Our company specializes in delivering high quality invitation cards
+                directly to your doorstep,offering a seamless and conveninent experience.
+                Wheather its for weddings,birthdays,corporate events,or any special occasion,
+                we ensure your invitations are crafted with precision and delivered on time.
+                With a wide range of designs, customizable options, and exceptional customer 
+                service, we take the hassle out of organizing invitations, allowing you to
+                 focus on celebrating your big moments.From design selection to final delivery,
+                we make sure every step is handled with care and professionalism.
+            </p>
+    </footer>
+
+</body>
+</html>
